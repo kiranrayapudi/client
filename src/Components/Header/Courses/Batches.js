@@ -16,7 +16,7 @@ const Batches = () => {
       
       <h1 className='text-white'>Batches</h1>
       
-       
+       <div className="table-responsive">
       <table className='table table-bordered'>
         <thead className='table-dark '>
           <tr>
@@ -49,7 +49,7 @@ const Batches = () => {
         
         </tbody>
       </table>
-      
+       </div>
     </div>
   )
 }
