@@ -16,7 +16,7 @@ const WelcomePage = () => {
         </div>
         <div className='contact'>
           <button className='border-light-subtle border-warning rounded-4 bg-success text-white'>
-          <NavLink className="nav-link" to="/contactus">CountactUs</NavLink>
+          <NavLink className="nav-link" to="/contactus">contact Us</NavLink>
           </button>
         </div>
         <div className='message'>
