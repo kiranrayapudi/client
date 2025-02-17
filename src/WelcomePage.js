@@ -7,8 +7,8 @@ import img3 from "./Components/Header/Courses/coursesassets/theory3.webp"
 const WelcomePage = () => {
   return (
     <div>
-        <div className='welcome p-5 '>
-          <div className='welcometext '>
+        <div className='welcome p-5'>
+          <div className='welcometext col-12 col-sm-8 col-md-6 col-lg-5'>
             <h1 >Welcome to the <span className='text-danger'>E</span>learn infotech <span className='bi bi-brightness-alt-high '></span></h1>
             <p>All you need is Learn Courses from Industry Expert with ELearn</p>
             </div>
