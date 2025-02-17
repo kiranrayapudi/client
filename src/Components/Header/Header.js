@@ -9,7 +9,7 @@ const Header = () => {
     <div className='headerstyle'>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <NavLink className="navbar-brand" to="#">
+    <NavLink className="navbar-brand" to="*">
       <img src={logo} className='w-100' alt='logo' />
     </NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
