@@ -6,7 +6,7 @@ const Batches = () => {
   const [batches,setbatches] = useState([])
 
   useEffect(()=>{
-    axios.get('http://localhost:4000/batches')
+    axios.get('https://elearnserver-1.onrender.com/batches')
     .then((res)=>setbatches(res.data))
     .catch((err)=>console.log(err))
   })
